@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Medidas estadisticas</h1>
+        <p>
+            Calculadora de promedio, Mediana y modas
+        </p>
+    </header>
+    <section>
+        <form action="">
+            <div>
+                <label for="inputData">Ingrese aquí los datos</label>
+                <input type="text" name="" id="inputData">
+                <button type="button" onclick="llenarArray()">Añadir elemento</button>
+                <button type="button" onclick="clearArray()">Limpiar</button>
+                <p id="array"></p>
+            </div>
+            <hr>
+            <button type="button" onclick="calcularMediaAritmetica()">Media Aritmética</button>
+            <button type="button" onclick="calcularMediana()">Mediana</button>
+            <button type="button" onclick="moda()">Moda</button>
+        </form>
+        <div>
+            <p id="result"></p>
+        </div>
+    </section>
+    
+    <script src="js/promedio.js"></script>
+</body>
+</html>
