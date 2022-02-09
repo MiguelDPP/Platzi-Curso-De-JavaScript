@@ -1,0 +1,72 @@
+/* Figuras geometricas */
+body{
+    background-color: var(--second);
+}
+nav{
+    background-color: var(--main);
+}
+.main-container{
+    border-top: 2px solid gainsboro;
+    background-color: var(--second);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.content-section{
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.content-title{
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--main);
+    align-items: center;
+}
+.content-title img{
+    width: 40px;
+    height: 40px;
+}
+
+.content-section form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    color: var(--main);
+}
+.content-section form input{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid var(--main);
+}
+
+.content-section form .content-button{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content-section form .content-button button{
+    min-width: 150px;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid var(--main);
+    font-weight: 700;
+    margin: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.content-section form .content-button button:hover{
+    background-color: var(--main);
+    color: white;
+}

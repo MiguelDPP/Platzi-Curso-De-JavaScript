@@ -1,5 +1,6 @@
 :root{
     --main: rgb(20, 20, 41);
+    --second: rgb(30, 30, 58);
 }
 *{
     box-sizing: border-box;
@@ -21,10 +22,10 @@ nav {
 }
 
 nav a:nth-child(1) {
-    width: 130px;
+    width: 100px;
 }
 nav a:nth-child(3){
-    width: 70px;
+    width: 50px;
 }
 nav img {
     width: 100%;
@@ -46,7 +47,7 @@ nav h1{
     background-size: cover;
     height: 300px;
 }
-.content h2{
+.content > h2{
     font-size: 20px;
     text-align: center;
     margin: 10px;
@@ -100,3 +101,4 @@ nav h1{
     font-weight: 300;
     text-align: justify;
 }
+
